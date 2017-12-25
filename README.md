@@ -40,7 +40,7 @@ You don’t have to implement complex naming rules between the filename and the 
 
 # How can I use it?
 
-```php-html
+```php
 include('lib/ClassLoader.php');
 
 $classLoader = new ClassLoader();
