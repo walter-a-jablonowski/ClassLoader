@@ -86,10 +86,7 @@ Using the PHP tokenizer mechanism, it will parse folder(s) and discover the diff
 Based on PHP-Autoload-Manager-1.0 2017-12 https://github.com/alfallouji/PHP-Autoload-Manager
 
 - Added the ability to exclude if a certain string is found in fil or folder name
-
-  ```php-html
-$classLoader->skipAnyNameContaining('_NO_USE');
-```
+  $classLoader->skipAnyNameContaining('_NO_USE');
 
 - New name for class, changed names
 - Readme
