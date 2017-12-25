@@ -32,7 +32,7 @@ See the GNU Lesser General Public License for more details
 ClassLoader is a **self-updating** PHP class loader
 
 - Install once and forget class loading
-- Just put new Classes in your library folder or any subfolder
+- Just put new classes in your library folder or any subfolder
 - ClassLoader will find them on its own
 
 You don’t have to implement complex naming rules between the filename and the classname. Just define (at least) one single library base folder, thats it! ClassLoader will allow you to implement whatever naming rules you want and may have mutliple classes in one file
@@ -53,13 +53,13 @@ $classLoader->setCacheFile('class_loader_cache.php');
 // Add library base folder
 
 // at last one, all subfolders and classes will be scanned
-$classLoader->addLibraryFolder('/my/common/php-library'); // ... all my commonly used classes
-$classLoader->addLibraryFolder('/my/proj/library');       // ... all my proj classes
+$classLoader->addLibraryFolder('/my/common/php-lib'); // ... all my commonly used classes
+$classLoader->addLibraryFolder('/my/proj/lib');       // ... all my proj classes
 
 // Skip folders (if you want)
 
-$classLoader->skipFolder('/my/common/php-library/skip_this_classes');
-$classLoader->skipFolder('/my/proj/library/skip_this_classes');
+$classLoader->skipFolder('/my/common/php-lib/skip_this_classes');
+$classLoader->skipFolder('/my/proj/lib/skip_this_classes');
 
 $classLoader->skipAnyNameContaining('_NO_USE');
 
