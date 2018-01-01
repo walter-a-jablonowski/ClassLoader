@@ -11,7 +11,7 @@ A self-updating PHP class loader
 - Charron Pierrick pierrick@webstart.fr
 
 
-# About
+## About
 
 ClassLoader is a **self-updating** PHP class loader
 
@@ -22,7 +22,7 @@ ClassLoader is a **self-updating** PHP class loader
 You don’t have to implement complex naming rules between the filename and the classname. Just define (at least) one single library base folder, thats it! ClassLoader will allow you to implement whatever naming rules you want and may have mutliple classes in one file
 
 
-# How can I use it?
+## How can I use it?
 
 ```php
 include('lib/ClassLoader.php');
@@ -52,7 +52,7 @@ $classLoader->install();
 ```
 
 
-# How does it work?
+## How does it work?
 
 Using the PHP tokenizer mechanism, it will parse folder(s) and discover the different classes and interfaces defined
 
@@ -65,7 +65,7 @@ Using the PHP tokenizer mechanism, it will parse folder(s) and discover the diff
 - A fallback mechanism can be used also in a development environment that will try to rescan all the folders once more (this mechanism is usefull when you are often adding new classes to your program)
 
 
-# License
+## License
 
 ```
 This Code is released under the GNU LGPL
@@ -83,7 +83,7 @@ See the GNU Lesser General Public License for more details
 ```
 
 
-# Original Source
+## Original Source
 
 Based on PHP-Autoload-Manager-1.0 2017-12 https://github.com/alfallouji/PHP-Autoload-Manager
 
@@ -93,8 +93,3 @@ Based on PHP-Autoload-Manager-1.0 2017-12 https://github.com/alfallouji/PHP-Auto
 - New name for class, changed names
 - Readme
 - Minor changes
-
-
-# Tasks
-
-- ClassLoader::SCAN_CACHE? see line 275
