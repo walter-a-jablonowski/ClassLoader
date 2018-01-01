@@ -1,5 +1,6 @@
-ClassLoader Readme
+# ClassLoader
 
+A self-updating PHP class loader
 
 **Download** http://github.com/walter-a-jablonowski/ClassLoader
 
@@ -8,23 +9,6 @@ ClassLoader Readme
 - Walter A. Jablonowski <walter.a.jablonowski@gmail.com>
 - Al-Fallouji Bashar bashar@alfallouji.com
 - Charron Pierrick pierrick@webstart.fr
-
-**License**
-
-```
-This Code is released under the GNU LGPL
-
-This library is free software; you can redistribute it and/or modify it
-under the terms of the GNU Lesser General Public License as published
-by the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
-
-This library is distributed in the hope that it will be useful, but
-WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
-or FITNESS FOR A PARTICULAR PURPOSE.
-
-See the GNU Lesser General Public License for more details
-```
 
 
 # About
@@ -79,6 +63,24 @@ Using the PHP tokenizer mechanism, it will parse folder(s) and discover the diff
 - Whenever, your program will look for a non-existing class, ClassLoader will look on that hash table and load the file if it exists
 
 - A fallback mechanism can be used also in a development environment that will try to rescan all the folders once more (this mechanism is usefull when you are often adding new classes to your program)
+
+
+# License
+
+```
+This Code is released under the GNU LGPL
+
+This library is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License as published
+by the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This library is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+or FITNESS FOR A PARTICULAR PURPOSE.
+
+See the GNU Lesser General Public License for more details
+```
 
 
 # Original Source
