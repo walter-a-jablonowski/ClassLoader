@@ -42,8 +42,8 @@ $classLoader->addLibraryFolder('/my/proj/lib');       // ... all my proj classes
 
 // Skip folders (if you want)
 
-$classLoader->skipFolder('/my/common/php-lib/skip_this_classes');
-$classLoader->skipFolder('/my/proj/lib/skip_this_classes');
+$classLoader->skipFolder('/my/common/php-lib/skip_these_classes');
+$classLoader->skipFolder('/my/proj/lib/skip_these_classes');
 
 $classLoader->skipAnyNameContaining('_NO_USE');
 
