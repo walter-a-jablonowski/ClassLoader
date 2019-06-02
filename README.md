@@ -1,17 +1,6 @@
 # ClassLoader
 
-A self-updating PHP class loader
-
-**Download** http://github.com/walter-a-jablonowski/ClassLoader
-
-**Authors**
-
-- Walter A. Jablonowski <walter.a.jablonowski@gmail.com>
-- Al-Fallouji Bashar bashar@alfallouji.com
-- Charron Pierrick pierrick@webstart.fr
-
-
-## About
+**A self-updating PHP class loader**
 
 ClassLoader is a **self-updating** PHP class loader
 
@@ -21,8 +10,13 @@ ClassLoader is a **self-updating** PHP class loader
 
 You don’t have to implement complex naming rules between the filename and the classname. Just define (at least) one single library base folder, thats it! ClassLoader will allow you to implement whatever naming rules you want and may have mutliple classes in one file
 
+**Authors**
 
-## How can I use it?
+- Walter A. Jablonowski <walter.a.jablonowski@gmail.com>
+- Al-Fallouji Bashar bashar@alfallouji.com
+- Charron Pierrick pierrick@webstart.fr
+
+## Usage
 
 ```php
 include('lib/ClassLoader.php');
