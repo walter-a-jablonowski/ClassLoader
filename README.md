@@ -2,19 +2,11 @@
 
 **A self-updating PHP class loader**
 
-ClassLoader is a **self-updating** PHP class loader
-
 - Install once and forget class loading
 - Just put new classes in your library folder or any subfolder
 - ClassLoader will find them on its own
 
 You don’t have to implement complex naming rules between the filename and the classname. Just define (at least) one single library base folder, thats it! ClassLoader will allow you to implement whatever naming rules you want and may have mutliple classes in one file
-
-**Authors**
-
-- Walter A. Jablonowski <walter.a.jablonowski@gmail.com>
-- Al-Fallouji Bashar bashar@alfallouji.com
-- Charron Pierrick pierrick@webstart.fr
 
 ## Usage
 
@@ -76,6 +68,12 @@ or FITNESS FOR A PARTICULAR PURPOSE.
 See the GNU Lesser General Public License for more details
 ```
 
+
+## Authors
+
+- Walter A. Jablonowski <walter.a.jablonowski@gmail.com>
+- Al-Fallouji Bashar bashar@alfallouji.com
+- Charron Pierrick pierrick@webstart.fr
 
 ## Original Source
 
