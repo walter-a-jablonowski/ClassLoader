@@ -85,3 +85,6 @@ Based on PHP-Autoload-Manager-1.0 2017-12 https://github.com/alfallouji/PHP-Auto
 - New name for class, changed names
 - Readme
 - Minor changes
+
+
+[Privacy](https://walter-a-jablonowski.github.io/privacy.html) | [Legal](https://walter-a-jablonowski.github.io/imprint.html)
